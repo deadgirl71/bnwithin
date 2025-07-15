@@ -1,0 +1,36 @@
+var multiConfig = {
+    "THISROOM": "bnwithin",
+    "locationColor": "red",
+    "locationBackground": "green",
+    "currentView": "",
+    "viewList": ["throne", "playroom", "chains"],
+    "defaultView": "throne"
+};
+var roomstuff = {
+    "rooms": {
+        "throne": {
+            "rName": "The Throne and Offering Room",
+            "backgroundImage": "https://soi-bnwithin.hyperchat.com/thronsandofferingsback.jpg",
+            "chatleft": "",
+            "underchat": "",
+            "roomtop": "<style>body {color: #c2f1ff;}</style><center><img class='topImage' src='https://soi-bnwithin.hyperchat.com/thronsandofferingstop.png'><br>Welcome The Throne Room<br></center>",
+            "roombottom": ""
+        },
+        "playroom": {
+            "rName": "The Playroom",
+            "backgroundImage": "https://soi-bnwithin.hyperchat.com/playroomback.jpg",
+            "chatleft": "",
+            "underchat": "",
+            "roomtop": "<style>body {color: #c8b4b0;}</style><center><img class='topImage' src='https://soi-bnwithin.hyperchat.com/playroomtop.jpg'><br>The Playroom<br></center>",
+            "roombottom": ""
+        },
+        "chains": {
+            "rName": "The Chains of Intentson",
+            "backgroundImage": "https://soi-bnwithin.hyperchat.com/chainsofintensionsback.jpg",
+            "chatleft": "",
+            "underchat": "",
+            "roomtop": "<style>body {color: #9a7c4f;}</style><center><img class='topImage' src='https://soi-bnwithin.hyperchat.com/thechainsofintensionstop.jpg'><br>Welcome to The Chains of Intention<br></center>",
+            "roombottom": ""
+        }
+    }
+};
