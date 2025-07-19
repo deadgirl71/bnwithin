@@ -1,36 +1,69 @@
-var multiConfig = {
-    "THISROOM": "bnwithin",
-    "locationColor": "red",
-    "locationBackground": "green",
-    "currentView": "",
-    "viewList": ["throne", "playroom", "chains"],
-    "defaultView": "throne"
-};
 var roomstuff = {
-    "rooms": {
-        "throne": {
-            "rName": "The Throne and Offering Room",
-            "backgroundImage": "https://soi-bnwithin.hyperchat.com/thronsandofferingsback.jpg",
-            "chatleft": "",
-            "underchat": "",
-            "roomtop": "<style>body {color: #c2f1ff;}</style><center><img class='topImage' src='https://soi-bnwithin.hyperchat.com/thronsandofferingstop.png'><br>Welcome The Throne Room<br></center>",
-            "roombottom": ""
-        },
-        "playroom": {
-            "rName": "The Playroom",
-            "backgroundImage": "https://soi-bnwithin.hyperchat.com/playroomback.jpg",
-            "chatleft": "",
-            "underchat": "",
-            "roomtop": "<style>body {color: #c8b4b0;}</style><center><img class='topImage' src='https://soi-bnwithin.hyperchat.com/playroomtop.jpg'><br>The Playroom<br></center>",
-            "roombottom": ""
-        },
-        "chains": {
-            "rName": "The Chains of Intentson",
-            "backgroundImage": "https://soi-bnwithin.hyperchat.com/chainsofintensionsback.jpg",
-            "chatleft": "",
-            "underchat": "",
-            "roomtop": "<style>body {color: #9a7c4f;}</style><center><img class='topImage' src='https://soi-bnwithin.hyperchat.com/thechainsofintensionstop.jpg'><br>Welcome to The Chains of Intention<br></center>",
-            "roombottom": ""
-        }
+  "rooms": {
+
+    "Thrones and Offerings": {
+      "rName": "Thrones and Offerings",
+      "backgroundImage": "https://soi-bnwithin.hyperchat.com/thronsandofferingsback.jpg",
+      "chatleft": "",
+      "underchat": "",
+      "roomtop": "<center><img src='https://soi-bnwithin.hyperchat.com/thronsandofferingstop.png'></center><br><center><div style='font-family:serif; font-size:16px; color:#C0C0C0; background-color:#2D2D2D; padding:15px; border:1px solid #B0B0B0; width:70%; line-height:1.5;'><i>Welcome to the chamber where thrones remain unclaimed<br>and offerings are laid in quiet devotion.<br><br>Each shadow here remembers what bowed without breaking,<br>and every whisper rings with the ache of sacred surrender.<br><br>Let your words fall softly,<br>your spirit be held gently,<br>and your presence become the crown no hand ever takes.<br><br><small>— This place is for worship, not war.</small></i></div></center>",
+      "roombottom": "",
+      "borderBGImage": "",
+      "innerBGColor": "#2D2D2D",
+      "innerHRImage": "https://soi-bnwithin.hyperchat.com/chain_divider_by_hannahlight_d5i2gd5-fullview-removebg-preview.png",
+      "color": "#C0C0C0",
+      "link": "#B0B0B0",
+      "hlink": "#D8D8D8",
+      "selection": "silver",
+
+      "inputBorderColor_Default": "#C0C0C0",
+      "inputBGColor_Default": "#000000",
+      "inputTextColor_Default": "#C0C0C0"
+    },
+
+    "Playroom": {
+      "rName": "Playroom",
+      "backgroundImage": "https://soi-bnwithin.hyperchat.com/playroomback.jpg",
+      "chatleft": "",
+      "underchat": "",
+      "roomtop": "<center><img src='https://soi-bnwithin.hyperchat.com/playroomtop.jpg'></center><br><center><div style='font-family:serif; font-size:16px; color:#C8A2C8; background-color:#231A1D; padding:15px; border:1px solid #B0B0B0; width:70%; line-height:1.5;'><i>Welcome to the Playroom.<br><br>Here, restraint is a ribbon and permission is a flame.<br>Every whisper curls with meaning, every glance invites a choice.<br><br>This is a place for exquisite tension<br>and the kind of surrender that requires strength.<br>Walls hold secrets. Floors remember footsteps.<br>And silence? It waits to be broken.<br><br>Come as you are.<br>Leave what no longer serves you at the door.<br>Everything else—curiosity, courage, craving—is welcome inside.<br><br><small>— Only those who play with care may enter.</small></i></div></center>",
+      "roombottom": "",
+      "borderBGImage": "",
+      "innerBGColor": "#231A1D",
+      "innerHRImage": "",
+      "color": "#C8A2C8",
+      "link": "#E3ADE3",
+      "hlink": "#F7E0F7",
+      "selection": "violet",
+
+      "inputBorderColor_Default": "#C8A2C8",
+      "inputBGColor_Default": "#000000",
+      "inputTextColor_Default": "#C8A2C8"
+    },
+
+    "Chain of Intentsion": {
+      "rName": "Chain of Intentsion",
+      "backgroundImage": "https://soi-bnwithin.hyperchat.com/chainsofintensionsback.jpg",
+      "chatleft": "",
+      "underchat": "",
+      "roomtop": "<center><img src='https://soi-bnwithin.hyperchat.com/thechainsofintensionstop.jpg'></center><br><center><div style='font-family:serif; font-size:16px; color:#AAAAAA; background-color:#1C1C1C; padding:15px; border:1px solid #888888; width:70%; line-height:1.5;'><i>Welcome to the Chain of Intentsion.<br><br>This is not merely a room—it is a rite.<br>Each link forged here holds a purpose.<br>Each silence honors a bond chosen, not taken.<br><br>Come with deliberate breath and open hands.<br>Leave the casual behind.<br>Your presence becomes part of the design,<br>woven in shadow, remembered in silver.<br><br><small>— Only those who know why they kneel may rise here.</small></i></div></center>",
+      "roombottom": "",
+      "borderBGImage": "",
+      "innerBGColor": "#1C1C1C",
+      "innerHRImage": "",
+      "color": "#AAAAAA",
+      "link": "#C0C0C0",
+      "hlink": "#EAEAEA",
+      "selection": "gray",
+
+      "inputBorderColor_Default": "#AAAAAA",
+      "inputBGColor_Default": "#000000",
+      "inputTextColor_Default": "#AAAAAA"
+    },
+
+    "Rooms": {
+      "rDisable": "disabled",
+      "rName": "Rooms"
     }
+  }
 };
