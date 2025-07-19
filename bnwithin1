@@ -1,3 +1,15 @@
+var multiConfig = {
+  "THISROOM": "cchome@soi",
+  "locationColor": "White",
+  "locationBackground": "black",
+  "currentView": "",
+  "viewList": [
+    "Thrones and Offerings",
+    "Playroom",
+    "Chain of Intentsion"
+  ],
+  "defaultView": "Thrones and Offerings"
+};
 var roomstuff = {
   "rooms": {
 
@@ -15,7 +27,6 @@ var roomstuff = {
       "link": "#B0B0B0",
       "hlink": "#D8D8D8",
       "selection": "silver",
-
       "inputBorderColor_Default": "#C0C0C0",
       "inputBGColor_Default": "#000000",
       "inputTextColor_Default": "#C0C0C0"
@@ -35,7 +46,6 @@ var roomstuff = {
       "link": "#E3ADE3",
       "hlink": "#F7E0F7",
       "selection": "violet",
-
       "inputBorderColor_Default": "#C8A2C8",
       "inputBGColor_Default": "#000000",
       "inputTextColor_Default": "#C8A2C8"
@@ -55,7 +65,6 @@ var roomstuff = {
       "link": "#C0C0C0",
       "hlink": "#EAEAEA",
       "selection": "gray",
-
       "inputBorderColor_Default": "#AAAAAA",
       "inputBGColor_Default": "#000000",
       "inputTextColor_Default": "#AAAAAA"
