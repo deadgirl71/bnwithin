@@ -6,10 +6,12 @@ var multiConfig = {
   "viewList": [
     "Thrones and Offerings",
     "Playroom",
-    "Chain of Intentsion"
+    "Chain of Intentsion",
+    "The Caged Room"
   ],
   "defaultView": "Thrones and Offerings"
 };
+
 var roomstuff = {
   "rooms": {
 
@@ -70,9 +72,29 @@ var roomstuff = {
       "inputTextColor_Default": "#AAAAAA"
     },
 
+    "The Caged Room": {
+      "rName": "The Caged Room",
+      "backgroundImage": "https://soi-bnwithin.hyperchat.com/hercagedplace.jpg",
+      "chatleft": "",
+      "underchat": "",
+      "roomtop": "<center><img src='https://soi-bnwithin.hyperchat.com/hercagedplacetop.jpg'></center><br><center><div style='font-family:serif; font-size:16px; color:#999999; background-color:#1A1A1A; padding:15px; border:1px solid #666666; width:70%; line-height:1.5;'><i>Welcome to the Caged Room.<br><br>This is the place where stillness becomes strength.<br>She was placed here not by accident, but by His choice.<br><br>Within these quiet walls, her breath becomes vow, her silence becomes ritual.<br>She does not ask for release. She waits.<br><br><small>— Only those who understand possession will feel the cage open.</small></i></div></center>",
+      "roombottom": "",
+      "borderBGImage": "",
+      "innerBGColor": "#1A1A1A",
+      "innerHRImage": "",
+      "color": "#999999",
+      "link": "#BBBBBB",
+      "hlink": "#DDDDDD",
+      "selection": "darkgray",
+      "inputBorderColor_Default": "#999999",
+      "inputBGColor_Default": "#000000",
+      "inputTextColor_Default": "#999999"
+    },
+
     "Rooms": {
       "rDisable": "disabled",
       "rName": "Rooms"
     }
   }
 };
+
